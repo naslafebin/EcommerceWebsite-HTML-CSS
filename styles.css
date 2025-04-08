@@ -1,0 +1,689 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.hi1{
+     width: 80%; margin: 0 auto;
+     height: 50px; 
+     background-color: rgb(255, 255, 255);
+     display: flex;  text-decoration: none; 
+     list-style: none; 
+     justify-content: space-between;
+     align-items:center;
+}
+.border{
+     width: 80%;
+     height: 12vh;
+     margin: 0 auto;
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     align-items: center; 
+     justify-content: space-between;
+     position: relative;
+}
+.posi{
+     position: absolute; 
+     left: 28%;
+      top: 20%;
+}
+.icon p{
+     display: flex; 
+     gap: 30px; 
+}
+.posis{
+     position: absolute; 
+     top:21%;
+     left: 95%;
+}
+.border input{
+     padding: 10px; width: 250px; border-radius: 10px;
+}
+.black{
+     width: 100%; height: 70px; background-color:rgb(16,16,17);   display: flex;
+     justify-content: center; align-items: center; 
+
+}
+.black1 h3 a:hover{
+    color: rgb(26,181,129);
+}
+.black1{
+     display: flex; justify-content: space-between; gap: 40px;
+}
+.black a{
+      text-decoration: none; color: white; justify-content: space-between;
+}
+.bg1{
+      height:550px;  width: 100%;
+      background-size: cover; position: relative;
+      background-image: url(./assets/hero.jpg);
+}
+.bg2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute; left: 10%; top: 150px;
+}
+.bg2 button{
+    width: 70%;
+    height: 35px;
+    border-radius: 10px; 
+    background:rgb(11,157,138); border: none; color: white;
+    
+}
+.bg2 button:hover{
+    background-color: white; color:rgb(11,157,138) ;transition: 1s;
+    
+}
+.variety{
+    width: 80%; height: 100%; background: #ffffff; display: flex; margin: 50px auto;  display: grid; grid-template-columns: repeat(5,1fr); gap: 20px;
+}
+.variety1:hover{
+    color: rgb(26, 191, 155);
+}
+.variety2:hover{
+    color: rgb(26, 191, 155);
+}
+.variety3:hover{
+    color: rgb(26, 191, 155);
+}
+.variety4:hover{
+    color: rgb(26, 191, 155);
+}
+.variety5:hover{
+    color: rgb(26, 191, 155);
+}
+.variety h4{
+    margin-top: 5px;
+    text-align: center;
+}
+.img1{
+    width: 90%; height: 220px; border-radius: 20px;  
+}
+.middle{
+    display: flex; flex-direction: column;
+}
+.middle1{
+    display: flex; justify-content: center;
+}
+.parent{
+    width: 80%; height: 100%; 
+    margin: 40px auto; display: grid; grid-template-columns: repeat(4,1fr); gap: 50px;
+}
+.parent h4{
+    text-align: center;
+}
+.parent p{
+    text-align: center;
+}
+.child1{
+position: relative; display: flex; flex-direction: column; gap: 10px;
+}
+.child1 h4:hover{
+    color: rgb(26, 191, 155) ;
+}
+.images1{
+    width: 100%; height:250px ;
+}
+.images2{
+    width: 100%; height:250px ; position: absolute; left: 0; opacity: 0;
+}
+.child1:hover .images2{
+    opacity: 1; transition: 1s;
+}
+.child2 button{
+    border-radius: 10px; width: 35px; height: 35px;
+    background-color: white;
+    color: rgb(0, 0, 0); 
+}
+.child2{
+    position: absolute; left: 28%; top: 63%; opacity: 0;
+}
+.over{
+    overflow: hidden;
+    border-radius: 40px;
+}
+.child1:hover .child2{
+    opacity: 1; transition: 2s; 
+}
+.child2 button:hover{
+    background-color: rgb(11,157,138); color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.btns{
+    display: flex; justify-content: center; align-items: center; margin: 20px auto;
+}
+.btns button{
+width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; border-radius: 10px; border: none;
+}
+.btns button:hover{
+    background: white; color: rgb(11,157,138) ;
+    transition: 1s;
+    transform: scaley(1.1);
+}
+.bgimg1{
+    margin: 50px auto;
+    height:400px;  width: 60%;
+    background-image: url(./images/bg1.webp); background-position: center;
+     background-repeat: no-repeat;
+    background-size: cover; position: relative;
+}
+.bgimg2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; position: absolute;
+    left: 10%; top: 150px;
+}
+.bgimg2 button{
+    width: 30%;
+    height: 35px;
+    border-radius: 10px; 
+    background:rgb(11,157,138); border: none; color: white;
+}
+.bgimg2 button:hover{
+    background-color: white; color:rgb(11,157,138) ;transition: 1s;
+}
+.parent1{
+    width: 80%; height: 100%;
+    margin: 60px auto; 
+}
+.children1{
+    height: 370px; border-radius: 30px; display: flex; flex-direction: column; gap: 60px;
+}
+.children1:hover{
+    transform: scale(1.1);
+   transition: 3.5s;
+}
+.parent2{
+    position: relative;
+    margin: auto 40px;
+    gap: 20px;
+}
+.pchild1{
+    width: 100%; height:250px ; border-radius: 10px;
+}
+.pchild2{
+    width: 100%; height:250px ;  border-radius: 10px;
+    position: absolute; left: 0; opacity: 0;
+}
+.children2{
+    display: flex; 
+}
+.parent2:hover .pchild2{
+    opacity: 1;
+    transition: 1s;
+}
+.parent2 h4{
+    text-align: center;
+}
+.parent2 p{
+    text-align: center;
+}
+.parent2 h4:hover{
+    color: rgb(47, 186, 139);
+}
+.child3 button{
+    border-radius: 10px; width: 35px; height: 35px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+.child3{
+    position: absolute; left: 28%; top: 63%; opacity: 0;
+}
+.parent2:hover .child3{
+    opacity: 1; transition: 2s;
+}
+.child3 button:hover{
+    background-color: rgb(11,157,138); color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.backg2{
+    height:300px;  width: 80%;
+    margin: 15px auto;
+    background-image: url(./images/bg2.webp); background-position: center; background-repeat: no-repeat;
+    background-size: cover; border-radius: 20px;
+}
+.backg2:hover{
+    transform: scaley(1.1);
+   transition: 3.0s;
+}
+.quote{
+    height: 300px; width: 100%; margin: 10px auto;
+    background-color: rgb(235,234,234); display: flex; justify-content: space-evenly; align-items: center;
+}
+.quote1{
+    height: 200px; width: 200px; 
+}
+.bot{
+    width:80%; margin: 20px auto;
+    height: 200px; 
+    border-radius: 20px;  background-color: white; border: 1px solid gray; display: flex; justify-content: center;
+    align-items: center;
+}
+.btnparent{
+    display: flex; gap: 100px; width: 90%; margin: 0 auto;
+}
+.endparent{
+    width: 100%; height: 60px; background-color: rgb(255, 255, 255);
+    margin: 15px auto; display: flex; justify-content: center;
+}
+.end{
+    width: 80%; height: 100%; 
+    margin: 10px auto; display: grid; grid-template-columns: repeat(3,1fr); gap: 70px;
+}
+.ending{
+    display: flex; flex-direction: column;
+    gap: 20px;
+}
+.ending img{
+    width: 100%; height: 100%; border-radius: 15px;
+}
+.ending h5 a{
+    text-decoration: none;
+}
+.ending:hover img{
+    transform: scaley(1.1);
+    transition: 3s;
+}
+.iconn{
+    width: 80%; 
+    margin: 30px auto; 
+}
+.iconn1{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+     justify-content: space-evenly;
+}
+.iconn a{
+    text-decoration: none; 
+    color: black; font-size: 100px; 
+}
+.iconchild:hover{
+   transform: scalex(1.1);
+    transition: 1s;
+}
+.footer1{
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+    gap: 50px;
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(234,234,235);
+}
+.footer11{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px auto;
+    width: 30%;
+}
+.footer22{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px auto;
+    width: 20%;
+}
+.footer33{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px auto;
+}
+.footer44{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px auto;
+    position: relative;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer input{
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.footer44 button{
+    height: 35px;
+    border-radius: 10px; 
+    background:rgb(11,157,138); border: none; color: white;
+    width: 20%;
+    position: absolute;
+    left: 250px;
+    top: 113px;
+}
+.footer44 button:hover{
+    background-color: black;
+    color: white;
+}
+@media(max-width: 1200px){
+    .btnparent{
+        gap: 100px;
+        width: 80%;
+    }
+    .img1{
+        height: 100%;
+    }
+    .footer44 button{
+        left: 211px;
+        top: 114px;
+        width: 34%;
+    }
+    .variety{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .parent{
+        grid-template-columns: repeat(2,1fr);
+        width: 80%;
+    }
+    .parent2 img{
+        width: 250px;
+        height: 100%;
+    }
+    .parent2{
+        margin: 0 auto;
+    }
+    .parent1{
+        width: 80%;
+        margin: 90px auto;
+    }
+    .child2{
+        left: 27%;
+        top: 71%;
+    }
+    .backg2{
+        height: 240px;
+        height: 240px;
+    }
+    .child2 button{
+        width: 54px;
+        height: 40px;
+    }
+    .children1{
+        display: none;
+    }
+    .images1{
+        height: 100%;
+    } 
+    .images2{
+        height: 385px;
+    }
+    .bgimg2{
+        left: -28%;
+        top: 164px;
+    }
+    .bgimg1{
+        left: 11%;
+    }
+    .pchild2{
+        left: 0%;
+    }
+    .child3{
+       left: 28%;
+       top: 80%;
+    }
+    .bot{
+        width: 80%;
+    }
+    .btnparent{
+        gap: 60px;
+        width: 90%;
+    }
+    .footer{
+        height: 100%;
+    }
+    .footer1{
+        margin: 0 auto;
+    }
+    .border{
+        height: 8vh;
+    }
+    .footer22{
+        width: 100%;
+    }
+    .footer33{
+        width: 100%;
+    }
+    .footer44{
+        width: 100%;
+    }
+    .footer11{
+        width: 100%;
+    }
+    .variety{
+        gap: 50px;
+
+    }
+}
+@media(max-width:600px){
+    .img1{
+        height: 130px;
+    }
+    .bg1{
+        width: 100%; 
+        height: 185px;
+    }
+    .bg2{
+        left: 7%;
+        top: 19px;
+        gap: 10px;
+        font-size: small;
+    }
+    .variety{
+        grid-template-columns: repeat(2,1fr);
+        margin: 15px auto;
+        gap: 20px;
+    }
+    .parent{
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        width: 80%;
+        margin: 10px auto;
+    }
+    .child2{
+        left: 35px;
+        top: 121px;
+    }
+    .child2 button{
+        width: 29px;
+    height: 30px;
+    }
+    .parent2{
+        margin: 10px auto;
+    }
+    .child3{
+        top: 213px;
+        left: 26%;
+    }
+    .pchild1{ 
+        margin: 0px auto;
+     } 
+     .pchild2{ 
+        margin: 0px auto;
+     }
+    .images1{
+        height: 166px;
+    }
+     .images2{
+        height: 166px;
+    }
+    .child1 h4{
+        margin-top: 10px;
+    }
+    .btns button{
+        width: 30%;
+        height: 40px;
+    }
+    .btns{
+        margin: 10px auto;
+    }
+    .bgimg1{
+        margin: 30px auto;
+        height: 200px;
+        width: 70%;
+    }
+    .bgimg2{
+        left: -15px;
+        top: 8px;
+        font-size: small;
+        gap: 7px;
+    }
+    .bgimg2 button {
+        width: 40%;
+        height: 50px;
+    }
+    .children1{
+        height: 260px;
+        width: 250px;
+        display: none;
+    }
+    .children2{
+        gap: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .pchild1{
+        margin: 0px auto;
+    }
+    .child1{
+        gap: 3px;
+    }
+    .quote{
+        height: 170px;
+    }
+    .quote p{
+        font-size: small;
+    }
+    .quote1{
+        height: 130px;
+        width: 150px;
+    }
+    .bot{
+        height: 150px;
+        width: 90%;
+        border-radius: 10px;
+
+    }
+    .endparent{
+        align-items: center;
+    }
+    .end{
+        gap: 20px;
+    }
+    .iconn{
+        margin: 10px auto;
+        width: 100%;
+        display: none;
+    }
+    .iconn a{
+        font-size: 10px;
+    }
+    .btnparent{
+        font-size: 8px;
+        gap: 10px;
+    }
+    .bot{
+        height: 104px;
+    }
+    .black{
+        font-size: x-small;
+    }
+    .black1{
+        gap: 4px;
+    }
+    .backg2{
+        height: 90px;
+        margin: -15px auto;
+    }
+    .border h5{
+        display: none;
+    }
+    .posi{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .border input {
+        width: 100px;
+    }
+    .hi1{
+        display: none;
+    }
+    .parent1{
+        margin: 15px auto;
+    }
+    .children2{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .children1{
+        height: 300px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .parent2 img{
+        width: 250px;
+        height: 250px;
+    }
+    .pchild1{
+        margin: 13px auto;
+        border-radius: 0;
+        width: 250px;
+    }
+    .pchild2{
+        margin: 13px auto;
+        border-radius: 0;
+        width: 250px;
+    }
+    .middle1 h1{   
+    margin-top: 10PX;
+    }
+    .footer1{
+        margin: 0px auto;
+    gap: 0px;
+    }
+    .footer{
+        height: 54vh;
+    }
+    .footer22{
+        display: none;
+    }
+    .footer33{
+        display: none;
+    }
+    .footer44{
+        margin: 0 auto;
+    }
+    .footer11{
+        margin: 14px auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footer44 img{
+        width: 100%;
+    }
+    .footer44 button{
+        top: 114px;
+        left: 200px;
+        width: 35%;
+    }
+    .end{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
